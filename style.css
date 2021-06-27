@@ -1,0 +1,138 @@
+
+
+.container-fluid {
+    background-color: white;
+    
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.nav-link, .avtive {
+    color: #808080;
+    font-weight: 700;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+.navbar-nav {
+    margin-left: 55%;
+}
+
+.buy-now-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 3% auto 5% auto;
+}
+
+.row p {
+    margin: 10% 0;
+}
+
+.carousel {
+    background-image: url("./images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    margin-bottom: 15%;
+}
+
+.carousel-inner img {
+    margin-left: 9%;
+}
+
+.crsl-text {
+    width: 500px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.see-all {
+    font-size: 20px;
+    color: orange;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 20px whitesmoke;
+    margin: 0 3%;
+    border-radius: 10px !important;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    margin: 3% 5%
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.picture img{
+    position: absolute;
+    top: 90%;
+    left: -4%;
+    width: 14%;
+}
+
+.catagories {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5% auto;
+}
+
+.cata-bottom {
+    background-image: linear-gradient(to right, orange, tomato);
+    height: 8px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+.topic {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 7px 10px 10px rgb(212, 211, 211);
+    margin: 15% auto;
+}
+
+.t-3, .t-2 {
+    border-radius: 30px 0 30px 0;
+}
+
+.t-1 {
+    border-radius: 0 30px 0 30px;
+}
+
+.photophea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
